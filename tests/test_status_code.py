@@ -1,7 +1,7 @@
 import requests
 import pytest
 
-urls = ['https://google.com', 'https://youtube.com']
+urls = ['https://google.com', 'https://youtube.com', 'https://github.com']
 
 @pytest.mark.parametrize('url', urls)
 def test_status_code(url):
